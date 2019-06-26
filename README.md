@@ -1,7 +1,13 @@
-# About
-So basically, this is a python/flask based program that can fetch images from the web (or stored in my archive folder) and then loads it into a pixel array
-that is then jsonified. Thus allows Roblox to use HTTPService and fetch the Jsonified data.
+# Instructions
+1. Execute "run.cmd", wait for it to initialize
+2. Launch "Roblox Side.rbxl" and open ServerScriptService/New
+3. Add the website url into the list and replace the name on the open line below the list
+4. Run the snippet of code presented on the game screen
+5. Wait for the local web server to collect and parse the image data
+6. Once all of the pixels are read, the program should start creating the image on Roblox
 
+# Misconceptions
+This is NOT designed to bypass Roblox's Decal Moderation when uploading Decals. Rather a prototype project to further gain a sense of understanding in methods of bypassing certain restrictions. This is by no means practical for exploiting.
 
 # Pre-Requisites
 Python 3.7.2 (maybe downgradable)
